@@ -3,6 +3,7 @@
 # Project created by QtCreator 2016-03-21T23:22:51
 #
 #-------------------------------------------------
+#This is a new comment
 
 QT       -= gui
 
@@ -17,6 +18,7 @@ DEFINES += MQTT4QT_LIBRARY
 LIBS += \
     -L/usr/lib/ -lmosquittopp
 
+# This is a comment in the .pro file
 SOURCES += \
     QMqttMessage.cpp \
     QMqttClient.cpp
