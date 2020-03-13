@@ -23,7 +23,6 @@ QMqttClient::QMqttClient(const QString& mqtt_id, const QHostAddress& host, int p
       m_keepAlive(60), //seconds
       m_connected(false),
       MID(0)
-
 {
 
 }
